@@ -32,16 +32,3 @@ w3 = BankWallet(-100)
 arr = [w1, w2, w3]
 arr.sort()
 print(arr)
-
-
-"""
-def combat_round(character, target):
-    if character is instance_of(Caster):
-        character.spell(target)
-    elif character is instance_of(Melee):
-        character.swing(target)
-
-def combat_round_poly(character, target):
-    character.attack(target)
-
-"""
